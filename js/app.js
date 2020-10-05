@@ -75,6 +75,8 @@ let thumbElts = getItemsByClass('thumb');
          getItemById('regular').innerHTML= `${product.price} $` ;
          getItemById('special').innerHTML = `${product.special} $`;
          getItemById('name').innerHTML = `${product.name} `;
+         getItemById('pb').innerHTML = `${product.name} `;
+
          getItemById('availability').innerHTML = `${product.availability} `;
          getItemById('review').innerHTML = `${product.review} `;
          getItemById('product-image').src = `assets/images/${product.picture} `;
@@ -100,6 +102,8 @@ let thumbElts = getItemsByClass('thumb');
          getItemById('regular').innerHTML = `${product.price} $`;
          getItemById('special').innerHTML = `${product.special} $`;
          getItemById('name').innerHTML = `${product.name} `;
+         getItemById('pb').innerHTML = `${product.name} `;
+
          getItemById('availability').innerHTML = `${product.availability} `;
          getItemById('review').innerHTML = `${product.review} `;
          getItemById('product-image').src = `assets/images/${product.picture} `;
