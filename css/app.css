@@ -535,13 +535,19 @@ aside > div {
     display: block; }
 
 .call-to-action-2 {
-  border: 1px solid #C6A530; }
+  border: 1px solid #C6A530; 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+}
   .call-to-action-2 .input-group {
-    position: relative;
-    width: 100%;
-    border: 1px solid whitesmoke;
-    background-color: aquamarine;
-    z-index: 1; }
+    width: 40px;
+    height: 40px;
+    margin: 0 3px;
+    border-radius: 50%;
+    border-color: none;
+   }
   .call-to-action-2 .color-picker {
     width: inherit !important;
     padding: 22px 0;
